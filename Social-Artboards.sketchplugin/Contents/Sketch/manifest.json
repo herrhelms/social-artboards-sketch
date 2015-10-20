@@ -1,0 +1,25 @@
+{
+  "name": "Social Artboads",
+  "description": "Artboard presets for Twitter, Facebook and such",
+  "author": "Sebastian Helms",
+  "homepage": "https://github.com/herrhelms/social-artboards-sketch",
+  "version": 1.0,
+  "identifier": "com.github.herrhelms.social-artboards-sketch",
+  "updateURL": "https://github.com/herrhelms/social-artboards-sketch",
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "commands": [
+    {
+      "name": "Install Social Artboards",
+      "identifier": "show-info",
+      "shortcut": "ctrl alt i",
+      "script": "Social-Artboards.coscript",
+      "handler": "installArtboards"
+    },
+  ],
+  "menu": {
+    "items": [
+      "show-info",
+    ]
+  }
+}

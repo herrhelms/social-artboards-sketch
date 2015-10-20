@@ -1,0 +1,76 @@
+/**
+ * Social Artboards 1.0
+ *
+ * Copyright © 2015 Herr Helms https://github.com/herrhelms
+ * and licenced under the MIT licence. All rights not explicitly
+ * granted in the MIT license are reserved. See the included
+ * LICENSE file for more details.
+ *
+ * https://github.com/herrhelms/
+ * https://twitter.com/herrhelms
+ */
+
+var pluginName = 'Social Artboards'
+var fileManager = [NSFileManager defaultManager]
+var dataarray = [NSMutableArray alloc]
+
+function createNew(context, resourcePath, targetPath) {
+    var doc = context.document
+    var plistfile = [resourcePath stringByAppendingPathComponent:@"defaults.plist"]
+    dataarray = [[NSMutableArray alloc] initWithContentsOfFile: plistfile]
+    [dataarray writeToFile:targetPath atomically:"TRUE"]
+    [doc showMessage: pluginName + ': Success! Add a new Artboard (A) to access the social artboard presets.']
+}
+
+function appendTo(context, resourcePath, targetPath) {
+    var doc = context.document
+    dataarray = [[NSMutableArray alloc] initWithContentsOfFile: targetPath]
+    var gotSocial = false
+    int i
+    for (i = 0; i < [dataarray count]; i++) {
+      var arrayElements = [dataarray objectAtIndex:i]
+      var name = [arrayElements objectForKey:@"name"]
+      if (name == 'Social') {
+         gotSocial = true
+         break
+      } else {
+         gotSocial = false
+      }
+    }
+    if(!gotSocial) {
+      var plistfile = [resourcePath stringByAppendingPathComponent:@"defaults.plist"];
+      var newdataarray = [[NSMutableArray alloc] initWithContentsOfFile: plistfile]
+      var newArray = [dataarray mutableCopy]
+      [newArray  addObjectsFromArray:newdataarray]
+      [newArray writeToFile:targetPath atomically:"TRUE"]
+      [doc showMessage: pluginName + ': You did not have the social artboard presets. They were installed successfully...']
+    } else {
+      [doc showMessage: pluginName + ': You already have the social artboard presets. Press "A" to use any of them.']
+    }
+}
+
+function installArtboards(context) {
+  var path = context.scriptPath;
+  while(path.length() > 0) {
+    if ([fileManager fileExistsAtPath:path]) {
+      break;
+    }
+  }
+  path = [path stringByDeletingLastPathComponent]
+  var root = path
+  var pluginParentPath = path
+  pluginParentPath = [pluginParentPath stringByDeletingLastPathComponent]
+  pluginParentPath = [pluginParentPath stringByDeletingLastPathComponent]
+  pluginParentPath = [pluginParentPath stringByDeletingLastPathComponent]
+  pluginParentPath = [pluginParentPath stringByDeletingLastPathComponent]
+  pluginParentPath = [pluginParentPath stringByDeletingLastPathComponent]
+  var artboardsPlistPath = [pluginParentPath  stringByAppendingString:"/artboards.plist"]
+
+  if ([fileManager fileExistsAtPath:artboardsPlistPath]) {
+    appendTo(context, root, artboardsPlistPath)
+  } else {
+    createNew(context, root, artboardsPlistPath)
+  }
+
+}
+

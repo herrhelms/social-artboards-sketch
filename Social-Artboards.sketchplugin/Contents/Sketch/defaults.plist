@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+  <dict>
+    <key>name</key>
+    <string>Social</string>
+    <key>presets</key>
+    <array>
+      <dict>
+        <key>name</key>
+        <string>Facebook Cover Image</string>
+        <key>width</key>
+        <integer>851</integer>
+        <key>height</key>
+        <integer>315</integer>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Facebook Profile Image</string>
+        <key>width</key>
+        <integer>180</integer>
+        <key>height</key>
+        <integer>180</integer>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Twitter Header Image</string>
+        <key>width</key>
+        <integer>1500</integer>
+        <key>height</key>
+        <integer>500</integer>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Twitter Profile Image</string>
+        <key>width</key>
+        <integer>400</integer>
+        <key>height</key>
+        <integer>400</integer>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Google+ Cover Image</string>
+        <key>width</key>
+        <integer>2120</integer>
+        <key>height</key>
+        <integer>1192</integer>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Google+ Profile Image</string>
+        <key>width</key>
+        <integer>250</integer>
+        <key>height</key>
+        <integer>250</integer>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>LinkedIn Banner Image</string>
+        <key>width</key>
+        <integer>851</integer>
+        <key>height</key>
+        <integer>315</integer>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>LinkedIn Square Image</string>
+        <key>width</key>
+        <integer>100</integer>
+        <key>height</key>
+        <integer>100</integer>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Instagram Profile Image</string>
+        <key>width</key>
+        <integer>161</integer>
+        <key>height</key>
+        <integer>161</integer>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Instagram Image</string>
+        <key>width</key>
+        <integer>612</integer>
+        <key>height</key>
+        <integer>612</integer>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Pintrest Profile Photo</string>
+        <key>width</key>
+        <integer>600</integer>
+        <key>height</key>
+        <integer>600</integer>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>YouTube Channel Image</string>
+        <key>width</key>
+        <integer>2560</integer>
+        <key>height</key>
+        <integer>1224</integer>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>YouTube Video Thumbnail Image</string>
+        <key>width</key>
+        <integer>1280</integer>
+        <key>height</key>
+        <integer>720</integer>
+      </dict>
+    </array>
+  </dict>
+</array>
+</plist>
