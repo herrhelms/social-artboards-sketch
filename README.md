@@ -6,10 +6,9 @@ different social media platforms.
 
 ## Installation
 Install this plugin via [Sketch Toolbox](http://sketchtoolbox.com) or download the package manually into to your Sketch3 Plugin Folder. The path should resemble the following
-```.../com.bohemiancoding.sketch3/Plugins/social-artboards-sketch-master```
-**Note:** The .sketchplugin file needs to reside in a directory!
+```.../com.bohemiancoding.sketch3/Plugins/social-artboards-sketch-master``` **Note:** The .sketchplugin file needs to reside in a directory!
 
-Afterwards, manually start an installation routine (once) within the Sketch App itself. Either goto the Plugins Menu and select ```Social Artboards -> Install Social Artboards``` or use Keyboard shortcut
+Afterwards, manually start an installation routine (once) within the Sketch App itself. Either goto the Plugins Menu and select Social Artboards -> Install Social Artboards or use Keyboard shortcut
 ```Alt + Crtl + I```. Afterwards you will find a new Group called ```Social``` whenever you select to create a new Artboard or press the "A" key in the right column of your App.
 
 ## What's inside
