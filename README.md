@@ -8,8 +8,8 @@ different social media platforms.
 Install this plugin via [Sketch Toolbox](http://sketchtoolbox.com) or download the package manually into to your Sketch3 Plugin Folder. The path should resemble the following
 ```.../com.bohemiancoding.sketch3/Plugins/social-artboards-sketch-master``` **Note:** The .sketchplugin file needs to reside in a directory!
 
-Afterwards, manually start an installation routine (once) within the Sketch App itself. Either goto the Plugins Menu and select Social Artboards -> Install Social Artboards or use Keyboard shortcut
-```Alt + Crtl + I```. Afterwards you will find a new Group called ```Social``` whenever you select to create a new Artboard or press the "A" key in the right column of your App.
+Afterwards, manually start an installation routine (once) within the Sketch App itself. Either goto the plugins menu and select Social Artboards -> Install Social Artboards or use keyboard shortcut
+```Alt + Crtl + I```. Afterwards you will find a new group called ```Social``` whenever you select to create a new artboard (press the `A` key) in the right column of your App.
 
 ## What's inside
 A couple of useful [Artboard Presets](http://www.sketchapp.com/support/documentation/09-grouping/2-artboards.html) for Sketch App (Version 3) for common social media platforms.
@@ -26,5 +26,5 @@ Profile, cover, header + supplementary image sizes for the platforms like:
  - Youtube
 
 ### That's all folks
-This is my first Sketch Plugin, so please feel free to [contact me](http://bit.ly/1MSRFbd) via twitter for comments, suggestions and critique.
-If you like it consider giving this repository a star! You can fork and contribute to the code and extend this package - I will happily merge any tested PRs.
+This is my first Sketch Plugin, so please feel free to [contact me](http://bit.ly/1MSRFbd) via twitter for comments, suggestions and critique. This has been so much fun, more will follow.
+If you like it consider giving this repository a star! If you're owning Bitcoin feel free to send some satoshis: `1BoFajaVNQ5Z8a3E7ZQvt8sWyTCGrxRtS9`. You can fork and contribute to the code and extend this package - I will happily merge any tested PRs.
