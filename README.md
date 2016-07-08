@@ -26,6 +26,9 @@ Profile, cover, header + supplementary image sizes for the platforms like:
  - Instagram
  - Youtube
 
+### Updates
+In order to 'update' this plugin you have to remove `artboards.plist` from `~/Library/Application Support/com.bohemiancoding.sketch3`. Reinstall and re-initialize it again! **CAUTION** This will remove any custom artboard settings you have added manually. **Use at your own risk!**
+
 ### That's all folks
 This is my first Sketch Plugin, so please feel free to [contact me](http://bit.ly/1MSRFbd) via twitter for comments, suggestions and critique. This has been so much fun, more will follow.
 If you like it consider giving this repository a star! If you're owning Bitcoin feel free to send some satoshis: `1BoFajaVNQ5Z8a3E7ZQvt8sWyTCGrxRtS9`. You can fork and contribute to the code and extend this package - I will happily merge any tested PRs.

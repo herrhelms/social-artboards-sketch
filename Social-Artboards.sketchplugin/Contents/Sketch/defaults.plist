@@ -9,7 +9,7 @@
     <array>
       <dict>
         <key>name</key>
-        <string>Facebook Cover Image (Desktop)</string>
+        <string>Facebook Cover (Desktop)</string>
         <key>width</key>
         <integer>828</integer>
         <key>height</key>
@@ -17,7 +17,7 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>Facebook Cover Image (Mobile)</string>
+        <string>Facebook Cover (Mobile)</string>
         <key>width</key>
         <integer>640</integer>
         <key>height</key>
@@ -25,7 +25,7 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>Facebook Profile Image</string>
+        <string>Facebook Profile</string>
         <key>width</key>
         <integer>180</integer>
         <key>height</key>
@@ -33,7 +33,7 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>Twitter Header Image</string>
+        <string>Twitter Header</string>
         <key>width</key>
         <integer>1500</integer>
         <key>height</key>
@@ -41,7 +41,7 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>Twitter Profile Image</string>
+        <string>Twitter Profile</string>
         <key>width</key>
         <integer>400</integer>
         <key>height</key>
@@ -57,7 +57,7 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>Google+ Profile Image</string>
+        <string>Google+ Profile</string>
         <key>width</key>
         <integer>250</integer>
         <key>height</key>
@@ -65,7 +65,7 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>LinkedIn Banner Image</string>
+        <string>LinkedIn Banner</string>
         <key>width</key>
         <integer>851</integer>
         <key>height</key>
@@ -73,7 +73,7 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>LinkedIn Square Image</string>
+        <string>LinkedIn Square</string>
         <key>width</key>
         <integer>100</integer>
         <key>height</key>
@@ -81,7 +81,7 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>Instagram Profile Image</string>
+        <string>Instagram Profile</string>
         <key>width</key>
         <integer>161</integer>
         <key>height</key>
@@ -89,7 +89,7 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>Instagram Image</string>
+        <string>Instagram</string>
         <key>width</key>
         <integer>612</integer>
         <key>height</key>
@@ -113,7 +113,7 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>Pintrest Profile Photo</string>
+        <string>Pintrest Profile</string>
         <key>width</key>
         <integer>600</integer>
         <key>height</key>
@@ -121,7 +121,7 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>YouTube Channel Image</string>
+        <string>YouTube Channel Header</string>
         <key>width</key>
         <integer>2560</integer>
         <key>height</key>
@@ -129,7 +129,7 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>YouTube Video Thumbnail Image</string>
+        <string>YouTube Video Thumbnail</string>
         <key>width</key>
         <integer>1280</integer>
         <key>height</key>
