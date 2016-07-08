@@ -22,6 +22,7 @@ Profile, cover, header + supplementary image sizes for the platforms like:
  - Google+
  - LinkedIn
  - Pintrest
+ - Dribbble
  - Instagram
  - Youtube
 
