@@ -2,13 +2,13 @@
   "compatibleVersion": 3,
   "bundleVersion": 1,
   "icon": "icon.png",
-  "name": "Social Artboads",
-  "description": "Artboard presets for Twitter, Facebook and such",
-  "author": "Sebastian Helms",
-  "homepage": "https://github.com/herrhelms/social-artboards-sketch",
+  "name": "Social Medias & Banner Ads Artboards",
+  "description": "Artboard presets for Social Media Headers/Post and most common Banner Ad",
+  "author": "Catherine Desrochers",
+  "homepage": "https://github.com/ktryndchrs/social-artboards-sketch",
   "version": 2.0,
-  "identifier": "com.github.herrhelms.social-artboards-sketch",
-  "updateURL": "https://github.com/herrhelms/social-artboards-sketch",
+  "identifier": "com.github.ktryndchrs.social-artboards-sketch",
+  "updateURL": "https://github.com/ktryndchrs/social-artboards-sketch",
   "commands": [
     {
       "name": "Install Artboard Presets",
@@ -18,7 +18,7 @@
     }
   ],
   "menu": {
-    "title": "Social Media Artboards",
+    "title": "Social Medias & Google Ads Artboards",
     "items": [
       "add-artboards"
     ]

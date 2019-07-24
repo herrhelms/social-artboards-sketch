@@ -86,7 +86,7 @@ var exports =
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 var fileManager = NSFileManager.defaultManager();
-var pluginName = 'Social Media Artboard Presets';
+var pluginName = 'Social Medias & Banner Ads Artboards';
 var app = NSApplication.sharedApplication();
 
 var createNew = function createNew(context) {
